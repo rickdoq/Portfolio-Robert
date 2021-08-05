@@ -1,0 +1,270 @@
+img {
+	max-width: 100%;
+}
+
+/* Scrollbar */
+
+::-webkit-scrlbar
+::-webkit-scrollbar-thumb
+
+::-webkit-scrollbar-track {
+	background: blue;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	background: blue;
+}
+::-webkit-scrollbar-thumb {
+	background: darkblue;
+}
+
+/* Menu do Site */
+.one {
+	width: 100%;
+	height: 4px;
+	background: darkblue;
+}
+
+.header {
+	width: 100%;
+	background: blue;
+	padding: 25px;
+}
+
+.topo {
+	text-align: right;
+}
+
+.topo ul li {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.topo ul li a {
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.topo ul li a:hover {
+	color:  cyan;
+}
+
+/* Banner do site */
+
+.banner {
+	width: 100%;
+	height: 400px;
+	background:url(../img/banner.jpg) no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+.banner h1 {
+	font-family: Oswald;
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 110px;
+	text-shadow: black 2px 2px 10px;
+	margin-bottom: 50px;
+}
+
+.banner a {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 25px 20px;
+	width: 50px;
+	color: white;
+	background: blue;
+	border-radius: 10px;
+	box-shadow: black 2px 2px 10px;
+	text-decoration: none;
+}
+
+.banner a:hover {
+	background: cyan;
+	color: black;
+	transition: all 0.3s;
+	box-shadow: black 2px 2px 10px;
+}
+
+/* Combo de Petiscos */
+
+.petiscos h2 {
+	margin-top: 75px;
+	font-family: Oswald;
+	font-size: 45px;
+	text-align: center;
+	color: blue;
+	text-transform: uppercase;
+}
+
+.petiscos p {
+	font-family: Arial;
+	font-size: 24px;
+	color: darkblue;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.combo {
+	margin-top: 75px;
+}
+
+.combo li {
+	font-family: Arial;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+.combo img {
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+}
+
+.combo img:hover {
+	-webkit-transition: scale(1.1);
+	transition: scale(1.1);
+}
+
+.combo h3 {
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+}
+
+.combo p {
+	font-family: Arial;
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	color: black;
+	text-transform: initial;
+	text-align: center;
+}
+
+.combo h4 {
+	background-color: green;
+	color: white;
+	font-family: Oswald;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.combo h4 a {
+	text-decoration: none;
+	color: white;
+}
+.combo h4 a:hover {
+	background-color: blue;
+	color: white;
+	transition: all 0.3s;
+}
+
+/* Slide */
+
+.slide {
+	margin-top: 20px;
+}
+
+.slide h3 {
+	margin-top: 75px;
+	font-family: Oswald;
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+	text-transform: uppercase;
+}
+
+.slide p {
+	font-family: Arial;
+	font-size: 24px;
+	color: darkblue;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.itens {
+	display: flex;
+	overflow-x: auto;
+}
+
+.itens img {
+	width: 100%;
+	height: 100%;
+	margin-left: 40px;
+}
+
+.slide {
+	flex: none;
+}
+
+/* Localização */
+
+.localizacao h2 {
+	margin-top: 75px;
+	font-family: Oswald;
+	font-size: 45px;
+	text-align: center;
+	color: blue;
+	text-transform: uppercase;
+}
+.localizacao p {
+	font-family: Arial;
+	font-size: 24px;
+	color: darkblue;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mapa {
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.localizacao h4 {
+	font-family: Arial;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.localizacao img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.localizacao {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+/* Rodápé */
+
+.rodape {
+	width: 100%;
+	height: 60px;
+	background: blue;
+}
+
+.rodape h3 {
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+}

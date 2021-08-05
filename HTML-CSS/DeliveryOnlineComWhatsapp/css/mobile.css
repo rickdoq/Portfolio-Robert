@@ -1,0 +1,42 @@
+/* Smartphone */
+
+@media only screen and (max-width: 787px) {
+	.header img {
+		margin-left: 100px;
+	}
+
+	.header {
+		position: relative;
+		height: 390px;
+	}
+
+	.topo {
+		text-align: center;
+	}
+
+	.topo ul li a {
+		display: block;
+		float: left;
+		padding: 5px;
+		border: 2px solid yellow;
+		width: 220px;
+		padding: 10px;
+	}
+
+	.banner {
+		height: 600px;
+	}
+
+	.slide h3 {
+		font-size: 30px;
+	}
+
+	.rodape {
+		height: 120px;
+	}
+
+	.rodape h3 {
+		line-height: 120px;
+		font-size: 15px;
+	}
+}
